@@ -1,36 +1,23 @@
 import math 
-# A program that calculates and prints:
-# - the number of people and percentage of the totalpopulation living in the Northern Hemisphere
-# - the number of people and percentage of the total population living in the Southern Hemisphere
- 
-total = 8 
-north = 7.2
-south = 0.8
-print("Northern Hemisphere in %: ", north/total*100)
 
-# A program that calculates and prints
-# the average grade of a student
-math = 5
-art = 4
-music = 5
-history = 3
-average = (math + art + music + history) / 4
-print("Average grade is", average)
+fi = 5450
+mi = 4920
+fm = 5
+ti = fi + mi
+ipp = (fi + mi)/5
+print(f'Total family income is {ti}, and income per person is {ipp}')
 
-#4. Output Formatting
+a = 3
+b = 5
+print(f'{a} + {b} = { a+ b} ')
+print(f'{a} - {b} = {a - b} ')
+print(f'{a} * {b} = {a * b} ')
+print(f'{a} / {b} = {a / b}')
 
-#My name is Adam.
-#I am ... years old, and my height is ... cm.
-#In 6 years I will be ... years old.
+fn = input('Enter your first name: ')
+ln= input('Enter your last name: ')
 
-name = (input("imię?: "))
-wiek = int(input("wiek?: "))
-wzrost = int(input("wzrost?: "))
-print("My name is", name , "I am", wiek, "years old, and my height is", wzrost, "cm In 6 years I will be", wiek + 6 ,"years old")
-
-
-
-
+print(f'Your first name is {fn} and your last name is {ln} and your fullname is {fn +" "+ ln}')
 
 
 
